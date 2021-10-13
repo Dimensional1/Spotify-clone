@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #383838;
+background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+}
+nav ul{
+font-family: 'Quicksand', sans-serif;;
+display: flex;
+background-color:black;
+align-items: center;
+height:50px ;
+color: white;
+list-style-type:none;
+
+}
+.logo img{
+    width: 61px;
+    padding: 0 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+nav ul li{
+    padding: 10px 10px;
+}
+nav ul li:hover{
+    color: #1ed660;
+    transition: 0.2s;
+    cursor:pointer;
+}
+
